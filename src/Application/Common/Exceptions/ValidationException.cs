@@ -17,6 +17,5 @@ public class ValidationException : Exception
             .GroupBy(e => e.PropertyName, e => e.ErrorMessage)
             .ToDictionary(failureGroup => failureGroup.Key, failureGroup => failureGroup.ToArray());
     }
-
     public IDictionary<string, string[]> Errors { get; }
 }

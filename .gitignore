@@ -478,3 +478,7 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+.vscode/tasks.json
+.gitignore
+.gitignore
+.vscode/launch.json
